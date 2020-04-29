@@ -1,0 +1,79 @@
+/* base element*/
+
+*{
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+  color: black;
+}
+
+p{
+  font-size: 20px;
+}
+
+h1,
+h2{
+  color: blue;
+}
+
+h1{
+  font-size: 40px;
+}
+
+li{
+  list-style: none;
+  font-size: 25px;
+}
+
+/* ===base layout===*/
+
+/*navigation layout*/
+.student{
+  margin: 0;
+  padding: 0 10px;
+}
+
+.main-nav{
+  margin-top: 5px;
+}
+
+.student,
+.main-nav li{
+  display: block;
+  padding: 10px 15px;
+  text-align: center;
+}
+
+/* layout container*/
+
+.banner{
+  text-align: center;
+  margin: 0 auto 20px;
+  width: 100%;
+  background-color: red;
+
+}
+
+
+.container{
+  background-color: green;
+  border: blue 2px solid;
+  width: 100%;
+}
+
+.col{
+  background-color: orange;
+  border: black 2px solid;
+  width: 80%;
+  margin: 10px auto;
+  text-align: center;
+}
+
+.pic{
+  width: 100%;
+  padding: 10px 20px;
+  margin: 5px auto;
+  
+}
