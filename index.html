@@ -1,14 +1,15 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <title> student's profile</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<!--    <link rel="stylesheet" href="styles.css"> link me to css page-->
+    <link rel="stylesheet" href="style/stylesheet.css" type="text/css">
   </head>
   <body>
-    <header>
-      <h1> student </h1>
-      <nav>
+    <header class="container">
+      <h1 class="student"> student </h1>
+      <nav class="main-nav">
+        <!-- remove in CSS indent space of the list-->
         <ul>
           <li> Home</li>
           <li>Portfolio</li>
@@ -16,11 +17,49 @@
         </ul>
     </nav>
     </header>
-    <article>
 
-    </article>
+      <section class="banner" >
+        <div>
+          <img src="images/responsive-layout-profile.png" alt="profile pic">
+          <p>hi im a front web developer</p>
+        </div>
+      </section>
+      <section class="container">
+        <article class="col">
+          <img class="pic" src="images/portfolio-1.png" alt="marketing page">
+          <h2>Marketing page</h2>
+          <p></p>
+        </article>
+        <article class="col">
+          <img class="pic" src="images/portfolio-2.png" alt="search page">
+          <h2>Search page</h2>
+          <p></p>
+        </article>
+        <article class="col">
+          <img class="pic" src="images/portfolio-3.png" alt="travel app">
+          <h2>travel app</h2>
+          <p></p>
+        </article>
+        <article class="col">
+          <img class="pic" src="images/portfolio-4.png" alt="map favourite spots">
+          <h2>map favourite spot</h2>
+          <p></p>
+        </article>
+        <article class="col">
+          <img class="pic" src="images/portfolio-5.png" alt="photo gallery">
+          <h2>photo gallery</h2>
+          <p></p>
+        </article>
+        <article class="col">
+          <img class="pic" src="images/portfolio-6.png" alt="calculator">
+          <h2></h2>
+          <p></p>
+        </article>
+      </section>
 
   </body>
-  <footer>
+  <footer class="container">
+    <h3> contact </h3>
+    <p></p>
   </footer>
 </html>
