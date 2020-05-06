@@ -77,3 +77,57 @@ li{
   margin: 5px auto;
 
 }
+
+/*=======================
+        media query
+  ========================*/
+
+@media (min-width: 768px) {
+
+/* nav bar orizontaly*/
+
+  .main-nav li{
+    display: inline-block;
+
+
+  }
+
+  .main-nav ul{
+    text-align: center;
+
+  }
+
+/* banner*/
+
+  .banner img{
+    float: right;
+    margin: 10px;
+    padding: 5px;
+
+  }
+
+    .clearfix{
+      overflow: auto;
+    }
+
+    .banner p{
+      padding: 5px;
+      margin: 10px;
+    }
+
+
+    /*portgolio*/
+
+
+    .col{
+      float: left;
+      width: 50%;
+      padding: 10px;
+
+      /*problem with left n right margin
+
+    }
+
+
+
+}
