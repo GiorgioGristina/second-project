@@ -106,8 +106,12 @@ li{
 
   }
 
-    .clearfix{
-      overflow: auto;
+    .clearfix:after{
+      content: "";
+      visibility: hidden;
+      display: block;
+      clear: both;
+      height: 0;
     }
 
     .banner p{
@@ -123,6 +127,7 @@ li{
       float: left;
       width: 50%;
       padding: 10px;
+
 
       /*problem with left n right margin
 
