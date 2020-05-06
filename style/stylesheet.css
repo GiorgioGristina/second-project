@@ -129,10 +129,18 @@ li{
       padding: 10px;
 
 
-      /*problem with left n right margin
+      /*problem with left n right margin*/
 
     }
 
+}
+
+
+@media (min-width: 1024px){
+
+  .col{
+    width: 33%;
+  }
 
 
 }
