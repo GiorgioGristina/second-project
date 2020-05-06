@@ -138,6 +138,21 @@ li{
 
 @media (min-width: 1024px){
 
+
+  .student{
+    float: left;
+    margin: 0;
+    margin-left: 50px;
+
+    }
+
+    .main-nav{
+      float: right;
+      margin: 0;
+      margin-right: 50px;
+    }
+  .
+
   .col{
     width: 33%;
   }
