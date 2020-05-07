@@ -27,6 +27,10 @@ li{
   font-size: 25px;
 }
 
+a{
+  text-decoration: none;
+}
+
 /* ===base layout===*/
 
 /*navigation layout*/
@@ -87,13 +91,14 @@ li{
 /* nav bar orizontaly*/
 
   .main-nav li{
-    display: inline-block;
+    float: left;
+
 
 
   }
 
-  .main-nav ul{
-    text-align: center;
+  .container .main-nav ul{
+    margin: 0 auto;
 
   }
 
@@ -106,7 +111,7 @@ li{
 
   }
 
-    .clearfix:after{
+    .clearfix::after{
       content: "";
       visibility: hidden;
       display: block;
@@ -125,8 +130,9 @@ li{
 
     .col{
       float: left;
-      width: 50%;
+      width: calc(50% - 4%);
       padding: 10px;
+      margin: 2%;
 
 
       /*problem with left n right margin*/
@@ -139,10 +145,10 @@ li{
 @media (min-width: 1024px){
 
 
-  .student{
-    float: left;
-    margin: 0;
-    margin-left: 50px;
+    .student{
+      float: left;
+      margin: 0;
+      margin-left: 50px;
 
     }
 
@@ -151,11 +157,10 @@ li{
       margin: 0;
       margin-right: 50px;
     }
-  .
-
-  .col{
-    width: 33%;
-  }
 
 
+    .col{
+      float: left;
+      width: calc(33% - 4%);
+    }
 }
