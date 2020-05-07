@@ -90,16 +90,16 @@ a{
 
 /* nav bar orizontaly*/
 
-  .main-nav li{
-    float: left;
-
-
-
+  .main-nav{
+    text-align: center;
   }
 
-  .container .main-nav ul{
-    margin: 0 auto;
+  .main-nav li{
+    display: inline;
+  }
 
+  .main-nav a{
+    display: inline-block;
   }
 
 /* banner*/
