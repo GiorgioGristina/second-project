@@ -110,6 +110,14 @@ a{
   border: 2px solid black;
   margin: 15px;
 }
+@media (min-width: 320px) {
+
+  #bigscreen{
+    display: none;
+  }
+
+}
+/* no navigation bar in mobile screen*/
 
 
 
@@ -118,6 +126,9 @@ a{
   ========================*/
 
 @media (min-width: 768px) {
+  #mobile{
+    display: none;
+  }
 
 /* nav bar orizontaly*/
 
