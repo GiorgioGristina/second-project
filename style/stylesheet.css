@@ -170,6 +170,10 @@ a{
 
 
 @media (min-width: 1024px){
+    #mobile{
+      display: none;
+    }
+
 
 
     .student{
