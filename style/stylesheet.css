@@ -102,6 +102,7 @@ a{
   float: left;
   border: 2px solid black;
   margin: 15px;
+  padding: 10px;
 
 }
 
@@ -109,16 +110,13 @@ a{
   float: right;
   border: 2px solid black;
   margin: 15px;
+  padding: 10px;
 }
-@media (min-width: 320px) {
 
-  #bigscreen{
-    display: none;
-  }
-
-}
 /* no navigation bar in mobile screen*/
-
+#bigscreen{
+  display: none;
+}
 
 
 /*=======================
@@ -176,6 +174,21 @@ a{
       padding: 10px;
       margin: 2%;
     }
+/* fouter nav for 768px and 1024px*/
+
+    #bigscreen{
+      display: block;
+    }
+    .footer-nav{
+      text-align: center;
+      float: right;
+      margin-right: 50px;
+    }
+
+    .footer-nav li{
+      display: inline-block;
+      padding: 10px 15px;
+      text-align: center;
 }
 
 
