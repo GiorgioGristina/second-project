@@ -7,6 +7,7 @@
 body{
   font-family: sans-serif;
   color: black;
+  margin: 0 10px;
 }
 
 p{
@@ -59,14 +60,28 @@ a{
   text-align: center;
 }
 
+ul{
+  padding-left: 0;
+}
+
+a{
+  text-decoration: none;
+  color: black;
+}
+
 /* layout container*/
 
 .banner{
   text-align: center;
-  margin: 0 auto 20px;
+  margin: 0 20px;
   width: 100%;
   background-color: red;
 
+}
+
+.banner img{
+  margin: 0 20px;
+  width: 100%;
 }
 
 
@@ -74,6 +89,7 @@ a{
   background-color: green;
   border: blue 2px solid;
   width: 100%;
+  margin: 0 20px;
 }
 
 .col{
@@ -159,7 +175,7 @@ a{
     }
 
     .banner p{
-      padding: 5px;
+      padding: 15px;
       margin: 10px;
       text-align: left;
     }
