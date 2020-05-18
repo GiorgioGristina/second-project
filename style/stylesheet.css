@@ -7,7 +7,6 @@
 body{
   font-family: sans-serif;
   color: black;
-  margin: 0 10px;
 }
 
 p{
@@ -80,7 +79,7 @@ a{
 }
 
 .banner img{
-  margin: 0 20px;
+  margin: 0 auto;
   width: 100%;
 }
 
