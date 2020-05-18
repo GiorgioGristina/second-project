@@ -132,7 +132,7 @@ a{
 
 .stu,
 .back{
-  width: calc(45% - 5%); 
+  width: calc(45% - 5%);
 }
 
 /* no navigation bar in mobile screen*/
@@ -169,6 +169,7 @@ a{
     float: right;
     margin: 10px;
     padding: 5px;
+    width: 40%;
 
   }
 
@@ -204,14 +205,17 @@ a{
     .footer-nav{
       text-align: center;
       float: right;
-      margin-right: 50px;
+
     }
 
     .footer-nav li{
       display: inline-block;
       padding: 10px 15px;
       text-align: center;
-}
+      margin: 15px 10pc;
+    }
+
+
 
 
 
