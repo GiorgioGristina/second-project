@@ -135,7 +135,14 @@ a{
   width: calc(45% - 5%);
 }
 
-/* no navigation bar in mobile screen*/
+#portfolio{
+  display: block;
+  padding: 20px;
+  margin: 15px auto;
+  text-align: center;
+
+}
+/* no footer navigation bar in mobile screen*/
 #bigscreen{
   display: none;
 }
