@@ -68,6 +68,8 @@ ul{
 a{
   text-decoration: none;
   color: black;
+  font-size: 16px;
+  font-weight: bold;
 }
 
 /* layout container*/
@@ -95,8 +97,7 @@ a{
 
 .col{
   background-color: lightgrey;
-
-  width: 80%;
+  padding: 10px;
   margin: 10px auto;
   text-align: center;
 }
@@ -119,7 +120,7 @@ a{
 .stu{
   float: left;
 
-  margin: 15px;
+
   padding: 10px;
 
 
@@ -128,13 +129,13 @@ a{
 .back{
   float: right;
 
-  margin: 15px;
+
   padding: 10px;
 }
 
 .stu,
 .back{
-  width: calc(45% - 5%);
+
 }
 
 #portfolio{
@@ -205,7 +206,9 @@ a{
       width: calc(50% - 4%);
       padding: 10px;
       margin: 2%;
+      min-height: 356px;
     }
+
 /* fouter nav for 768px and 1024px*/
 
     #bigscreen{
@@ -214,18 +217,22 @@ a{
     .footer-nav{
       text-align: center;
       float: right;
-
     }
 
     .footer-nav li{
       display: inline-block;
       padding: 10px 15px;
       text-align: center;
-      margin: 15px 10px;
+      margin: 0;
     }
 
-
-
+    .stu{
+      padding: 10px 15px;
+    }
+    #contact{
+      padding: 10px;
+    }
+}
 
 
 @media (min-width: 1024px){
@@ -239,6 +246,7 @@ a{
       float: left;
       margin: 0;
       margin-left: 50px;
+      padding: 10px 15px;
 
     }
 
@@ -246,6 +254,7 @@ a{
       float: right;
       margin: 0;
       margin-right: 50px;
+      padding: 10px 15px;
     }
 
 
